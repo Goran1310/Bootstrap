@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS   bootstrap.bundle.min.js downloaded zip or add it via Content Delivery Network: -->
+    <!-- <script src="task.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#liveToastBtn").click(function(){
+              $("#liveToast").toast("show");
+          });
+      });
+  </script>
+</head>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+ 
+    <p>1 Use a display class to make the  element stand out more than typical headings (larger font size and lighter font weight):</p>
+
+  <h1 class="display-1 fw-bolder text-danger">My Heading Bootstrap 5.0</v5></h1>
+  <h1 class="...">FRONT-END TECHNOLOGIES - MODULE 4</h1>
+
+  <p>2.Having the following table: </p>
+  <p>a hover state on the table rows
+    using contextual classes, make the first row green, the second row red and the last row blue.
+</p>
+
+  <table class="table table-hover">
+  <tr class="table-success">
+      <td>John</td>
+      <td>Doe</td>
+      <td>john@example.com</td>
+    </tr>
+    <tr class="table-danger">
+      <td>Mary</td>
+      <td>Moe</td>
+      <td>mary@example.com</td>
+    </tr>
+    <tr class="table-info">
+      <td>July</td>
+      <td>Dooley</td>
+      <td>july@example.com</td>
+    </tr>
+  </table>
+<p>3.Create three Bootstrap buttons:
+  a button with a white background and red border
+  a small green disabled button
+  a link acting as a large orange button, linking to https://google.com.</p>
+
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-success btn-sm disabled">Success</button>
+  <a type="button" class="btn btn-link btn-warning btn-lg" href="https://google.com">Link</a>
+
+  <p>4. Create a list group with three elements.</p>
+  <ul class="list-group">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item active" aria-current="true">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+  <p>5.Create a dropdown with four links. The fourth link should be separated from the separator. All links can link to the https://google.com page.</p>
+</div>
+<div class="btn-group ">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://google.com">Action</a></li>
+    <li><a class="dropdown-item" href="https://google.com">Another action</a></li>
+    <li><a class="dropdown-item" href="https://google.com">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="https://google.com">Separated link</a></li>
+  </ul>
+</div>
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://google.com">Action</a></li>
+      <li><a class="dropdown-item" href="https://google.com">Another action</a></li>
+      <li><a class="dropdown-item" href="https://google.com">Something else here</a></li>
+    </ul>
+<br>
+
+  <p>6. Create a pills nav with two items linking to the https://google.com:</p>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="https://google.com">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://google.com">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="https://google.com"  tabindex="-1"aria-disabled="false">Not Disabled</a>
+    </li>
+  </ul>
+  <p>7. Create a standard carousel containing the following two images:
+Rainbow
+Betta</p>
+<div id="carouselExampleSlidesOnly" class="container p-5 carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2022/07/07/11/15/rainbow-7307023__340.png" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/03/30/13/16/betta-7101167__340.jpg" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/07/07/11/15/rainbow-7307023__340.png" class="d-block w-50" alt="...">
+    </div>
+  </div>
+</div>
+<p>8. Create the grid with four cells. 
+  On a screen size higher than medium, show four columns. 
+  On a screen size higher than small, show two columns. 
+  Otherwise, show one column. 
+  Each cell should have a different colour.</p>
+  <div class="container lh-sm fw-light">
+    <div class="row">
+      <div class="col bg-info">
+        <h4 class="text-secondary mb-0">Robotesque</h4>
+        <p>Considered ahead of their time, Robotesqué is known for combining class and sportiness for young-at-artificial-heart androids.</p>
+      </div>
+      <div class="col bg-danger">
+        <h4 class="text-secondary mb-0">Denimomatic</h4>
+        <p>Launched as a brand for the robots that worked in the auto industry, Denimomatic still signifies hard work and good looks for all ages.</p>
+      </div>
+      <div class="col d-none d-lg-block bg-warning">
+        <h4 class="text-secondary mb-0">Bling Thing</h4>
+        <p>For the daring robot who loves flashier looks that include sequins, tassels, and diamond sprinkles.</p>
+      </div>
+      <div class="col d-none d-lg-block bg-success">
+        <h4 class="text-secondary mb-0">Robotlaza</h4>
+        <p>Made for those who love style, Robotlaza combines the lushness of fancy schmancy with the grunginess of rock and roll.</p>
+      </div>
+    </div>
+  </div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="bg-warning col">Column</div>
+    <div class="bg-success col">Column</div>
+    <div class="bg-danger col">Column</div>
+    <div class="bg-primary col">Column</div>
+  </div>
+</div>
+<br>
+<p>9. Create a button activating the following toast notification:</p>
+<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+        <strong class="me-auto">TOAST NOTIFICATION</strong>
+        <small>11 mins ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body text-success">
+        The new toast notification!
+        </div>
+    </div>
+</div>
+<p>10 Create the figure containing the betta image with thumbnails and caption on the bottom left. Make the figure resize with the change of screen size.</p>
+
+<figure class="figure">
+  <img src="https://cdn.pixabay.com/photo/2022/03/30/13/16/betta-7101167__340.jpg"
+  class="figure-img img-fluid rounded img-thumbnail" 
+  alt="betta image">
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+</figure>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
